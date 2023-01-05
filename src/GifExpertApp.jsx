@@ -16,7 +16,7 @@ export const GifExpertApp = () => {
       <div>GifExpertApp</div>
 
       {/* Input */}
-      <AddCategory/>
+      <AddCategory setCategories={ setCategories }/>
 
 
       {/* Listado de Gif */}
