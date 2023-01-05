@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getGifs } from '../helpers/getGifs'
+import { GifItem } from "./GifItem";
 
 export const GifGrid = ({ category }) => {
 
@@ -21,7 +22,7 @@ export const GifGrid = ({ category }) => {
       <ol>
         {
           images.map( ({ id, title }) => (
-            <li key={ id }>{ title }</li>
+            <GifItem />
           ))
         }
       </ol>
