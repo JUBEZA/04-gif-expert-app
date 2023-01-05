@@ -13,7 +13,7 @@
 
   }));
 
-    console.log(gifs);
+   
     return gifs;
 
 }
